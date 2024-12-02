@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoss and Jhos <3</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Arial", sans-serif;
+            width: 100vw;
+            height: 100vh;
+            background-image: url(DALL·E\ 2024-12-01\ 22.12.08\ -\ A\ soft\ pink\ background\ featuring\ Minecraft-style\ bees\ and\ sheep\ scattered\ throughout.\ The\ bees\ are\ flying\ around\ with\ pixelated\ wings\,\ while\ the\ sheep.webp); /* Cambia esto al nombre exacto de tu imagen de fondo */
+            background-size: cover; 
+            background-position: center;
+        }
+
+        .container {
+            padding: 20px;
+            background: rgba(218, 210, 210, 0.8); /* Fondo translúcido */
+            border-radius: 15px;
+            display: inline-block;
+            text-align: center;
+            margin: auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #654b4b;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #ffaeba;
+            color: #724b4b;
+            border: none;
+            padding: 12px 25px;
+            font-size: 16px;
+            border-radius: 25px;
+            cursor: pointer;
+            margin: 10px;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #FF69B4;
+        }
+
+        .hidden-text {
+            display: none;
+            margin: 25px 0;
+            font-size: 18px;
+            color: #000000; 
+        }
+
+        .hidden-text img {
+            max-width: 300px; /* Ajusta el tamaño máximo de las imágenes */
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(155, 129, 129, 0.2);
+        }
+
+        .visible {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Feliz mes cuchurrumin </h1>
+        <p>solamente quiero decirte que te adoro, y q no te vayas nunca, <br><br>  te amoo <333</p>
+
+        <!-- Botones -->
+        <button onclick="toggleText('texto1')">Pa ti 🧡</button>
+        <button onclick="toggleText('texto2')">Tu noviecito 🧡</button>
+        <button onclick="toggleText('texto3')">yoss and cinamonroll 🧡</button>
+
+        <!-- Textos que se mostrarán al hacer clic -->
+        <div id="texto1" class="hidden-text">
+        
+            <br><br>amor primeramente quiero agradecerle a Dios por mandarte a mi vida
+            la verdad nunca espere que llegara alguien a mi vida para hacerme tan feliz como me haces tu corazon,
+            sinceramente quisiera compartir muchisimo mas meses contigo este es el primero corazon y la verdad que cada dia que pasa me enamoro mas de ti,
+            se que te has dado cuenta de eso, y me alegra mucho q veas como un loquito q nunca esperaba enamorarse asi de esta forma hasta el punto
+            de quedarse como tonto mirandote en videollamada, es q eres tan hermosa, tan unica y bonita, q solo quisiera verte y escucharte a ti, eres tan suficiente mi amor
+            que lo unico en lo que pienso diariamente es en ti y solo en ti, te adoro mucho corazon y tmb te amo demasiado, espero duremos muchos meses mas
+            y espero q tu tmb te sigas enamorando mas de mi pq no quiero dejar de sentir esto, quiero estar contigo, deseo estar contigo y nadie mas
+            si en algun momento deseas irte amor, espero que estes conciente que no te detendre mi niña, pero si ese no es el caso, joder PUES QUE FELICIDAD PQ JUNTOS NOS VAMOS A QUEDAR
+            HASTA QUE TENGAMOS 400 HIJITOS CLARO Q SI, te amo mucho mi amor, feliz mes<3
+            eres tan preciosa..
+        </div>
+        <div id="texto2" class="hidden-text">
+            <img src="fokius.jpg" alt="Yoss and Jhos">
+        </div>
+        <div id="texto3" class="hidden-text">
+        disculpame si te parecio algo muy sencillo y bobo, solo es que no sabia que mas hacerte , espero lo tomes con mucho amor, te amo mi vida, gracias por ser mi novia hermosa <br><br> <br><br>
+         MIRATE CON CINAMONROLL COCINANDO :OO <br><br> <br><br>   <img src="yoss y cina.jpg" alt="Otra Imagen">
+        </div>
+    </div>
+
+    <script>
+        function toggleText(id) {
+            const element = document.getElementById(id);
+            element.classList.toggle('visible');
+        }
+    </script>
+</body>
+</html>
